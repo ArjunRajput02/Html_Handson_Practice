@@ -8,8 +8,8 @@
 
 
 body{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     background-image: url('./bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@ header h1 span{
 
 
 .container{
-    height: 50vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,18 +44,19 @@ header h1 span{
     backdrop-filter: blur(10px);
     text-align: center;
     color: #fff;
-
+    justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 
 .login_box h1{
     font-weight: 600;
 }
 
 .login_here{
-    font-size: 14px;
+    font-size: 30px;
     opacity: 0.8;
 }
 
